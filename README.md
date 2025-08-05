@@ -1,29 +1,29 @@
 
 <p align="center">
-  <img src="https://github.com/kspalaiologos/kamilalisp/raw/v0.2/logo.png">
+  <img src="https://github.com/iczelia/kamilalisp/raw/v0.2/logo.png">
 </p>
 
 
 # KamilaLisp Two: Electric Boogaloo
 
-[![codecov](https://codecov.io/gh/kspalaiologos/kamilalisp/branch/v0.2/graph/badge.svg?token=V9D86RYQO8)](https://codecov.io/gh/kspalaiologos/kamilalisp) [![Java CI with Maven](https://github.com/kspalaiologos/kamilalisp/actions/workflows/maven.yml/badge.svg)](https://github.com/kspalaiologos/kamilalisp/actions/workflows/maven.yml)
+[![codecov](https://codecov.io/gh/iczelia/kamilalisp/branch/v0.2/graph/badge.svg?token=V9D86RYQO8)](https://codecov.io/gh/iczelia/kamilalisp) [![Java CI with Maven](https://github.com/iczelia/kamilalisp/actions/workflows/maven.yml/badge.svg)](https://github.com/iczelia/kamilalisp/actions/workflows/maven.yml)
 ![WakaTime](https://wakatime.com/badge/user/c3a8c589-783c-4ab2-be05-93fa48bc9a94/project/1c00d725-551f-46d2-a691-1408603a8707.svg)
-![GitHub](https://img.shields.io/github/license/kspalaiologos/kamilalisp)
-[![](https://tokei.rs/b1/github/kspalaiologos/kamilalisp)](https://github.com/kspalaiologos/kamilalisp)
-<span class="badge-patreon"><a href="https://patreon.com/kspalaiologos" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+![GitHub](https://img.shields.io/github/license/iczelia/kamilalisp)
+[![](https://tokei.rs/b1/github/iczelia/kamilalisp)](https://github.com/iczelia/kamilalisp)
+<span class="badge-patreon"><a href="https://patreon.com/iczelia" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 
 A functional, flexible and concise Lisp inspired by Haskell and APL, among others. A ground-up rewrite.
 
 Useful links:
 
-- Read the book: [An introduction to functional and array programming](https://raw.githubusercontent.com/kspalaiologos/kamilalisp/v0.2/doc/main.pdf).
+- Read the book: [An introduction to functional and array programming](https://raw.githubusercontent.com/iczelia/kamilalisp/v0.2/doc/main.pdf).
 
 ## Setup
 
 You need **Java17 JDK or newer** installed to build KamilaLisp yourself.
 
 ```
-git clone https://github.com/kspalaiologos/kamilalisp
+git clone https://github.com/iczelia/kamilalisp
 cd kamilalisp
 mvn package
 ```
@@ -34,9 +34,9 @@ Alternatively, you could download a pre-compiled JAR file for use with **Java 17
 export VERSION=0.3.0.1
 mkdir kamilalisp && cd kamilalisp
 # Download the KamilaLisp JAR
-curl -L -O https://github.com/kspalaiologos/kamilalisp/releases/download/v$VERSION/kamilalisp-$VERSION.jar
+curl -L -O https://github.com/iczelia/kamilalisp/releases/download/v$VERSION/kamilalisp-$VERSION.jar
 # Verify the signature
-curl -L -O https://github.com/kspalaiologos/kamilalisp/releases/download/v$VERSION/kamilalisp-$VERSION.jar.asc
+curl -L -O https://github.com/iczelia/kamilalisp/releases/download/v$VERSION/kamilalisp-$VERSION.jar.asc
 curl https://palaiologos.rocks/pub.pgp | gpg --import # Or alternatively: gpg --recv-keys C868F0B6DE38409D
 gpg --verify kamilalisp-$VERSION.jar.asc kamilalisp-$VERSION.jar
 ```
@@ -132,7 +132,7 @@ List operations and point-free programming:
 
 ## License
 
-KamilaLisp is distributed under the GNU General Public License v3. See [LICENSE](https://github.com/kspalaiologos/kamilalisp/v0.2/main/LICENSE) for details.
+KamilaLisp is distributed under the GNU General Public License v3. See [LICENSE](https://github.com/iczelia/kamilalisp/v0.2/main/LICENSE) for details.
 
 ## Lisp Roadmap
 
